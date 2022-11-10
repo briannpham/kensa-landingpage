@@ -29,7 +29,7 @@ const Hero = () => {
         <br />
         
         <Text css={`&:hover {transform: translate(0,1px); text-decoration: underline}`} fontFamily="Garamond" fontWeight="400" color="#FDEEDC" fontSize="50px" letterSpacing={"3px"} fontStyle="italic" pl="75px">
-        <a href='http://localhost:8080/'>GET STARTED</a>
+        <a href='http://Kensa-env.eba-qrqpsy69.us-west-1.elasticbeanstalk.com/'>GET STARTED</a>
         </Text>
       </Box>
       <Box>

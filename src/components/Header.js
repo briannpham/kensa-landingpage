@@ -28,10 +28,10 @@ const Header = () => {
 
         <Flex alignItems="flex-end">
           <HStack fontFamily="Helvetica" alignItems='center' justifyContent="flex-end" spacing="50px" fontSize="20px" letterSpacing={".5px"} color="#DEA057" fontWeight="500" >
-            <a href='http://localhost:8080/'>
+            <a href='http://Kensa-env.eba-qrqpsy69.us-west-1.elasticbeanstalk.com/'>
               <Text css={`&:hover {color: #E38B29; font-weight: 550`}>SIGN UP</Text>
             </a>
-            <a href='http://localhost:8080/login'><Text>LOGIN</Text></a>
+            <a href='http://Kensa-env.eba-qrqpsy69.us-west-1.elasticbeanstalk.com/login'><Text>LOGIN</Text></a>
           </HStack>
         </Flex>
       </Flex>
