@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Flex, Box, Text, Image } from '@chakra-ui/react';
-import { Link as RouterLink} from "react-router-dom";
 import bg3 from '../assets/bg3.png';
 import logo from '../assets/Kensa_cropped.png';
 
@@ -29,11 +28,9 @@ const Hero = () => {
         <br />
         <br />
         
-        <RouterLink to="/login">
-          <Text css={`&:hover {transform: translate(0,1px); text-decoration: underline}`} fontFamily="Garamond" fontWeight="400" color="#FDEEDC" fontSize="50px" letterSpacing={"3px"} fontStyle="italic" pl="75px">
-            GET STARTED
-          </Text>
-        </RouterLink>
+        <Text css={`&:hover {transform: translate(0,1px); text-decoration: underline}`} fontFamily="Garamond" fontWeight="400" color="#FDEEDC" fontSize="50px" letterSpacing={"3px"} fontStyle="italic" pl="75px">
+        <a href='http://localhost:8080/'>GET STARTED</a>
+        </Text>
       </Box>
       <Box>
         <Image src={logo} w='500px' pt='80px' id={`${render}`}/> 
